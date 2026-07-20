@@ -3,7 +3,7 @@ cask "nebo" do
   version "0.12.6"
 
   url "https://github.com/NeboLoop/nebo/releases/download/v0.12.6/Nebo-0.12.6-arm64.dmg"
-  sha256 "2a6aa7195c55c013013d0b4744c07abdb3a952fa3192e96757eaf6647c4f17b8"
+  sha256 "0f526a7383a1752fa2f9d7545516a6056b1bc13c9d39f4a53ae875672091ec38"
 
   name "Nebo"
   desc "AI agent with web UI - your personal AI companion"
