@@ -2,18 +2,19 @@
 cask "nebo" do
   version "0.16.24"
 
-  url "https://github.com/NeboLoop/nebo/releases/download/v0.16.24/Nebo-0.16.24-arm64.dmg"
+  url "https://cdn.neboai.com/releases/v0.16.24/Nebo-0.16.24-arm64.dmg"
   sha256 "8e2dbe14b5208422feec91eee62420044f1eef5607b3017f9e710e623e089df9"
 
   name "Nebo"
-  desc "AI agent with web UI - your personal AI companion"
+  desc "The operating system for AI employees"
   homepage "https://neboai.com"
 
+  auto_updates true
   depends_on arch: :arm64
 
   app "Nebo.app"
 
-  binary "#{appdir}/Nebo.app/Contents/MacOS/Nebo"
+  binary "#{appdir}/Nebo.app/Contents/MacOS/nebo"
 
   zap trash: [
     "~/Library/Application Support/Nebo",
